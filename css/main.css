@@ -23,7 +23,7 @@ body {
   padding: 0;
 }
 
-body div {
+section {
   background-color: #e5c30a;
   padding: 0;
   margin: 0;
@@ -33,15 +33,18 @@ body div {
 }
 
 .wrapper {
-  padding: 1.4rem;
+  margin: 1.4rem;
   display: flex;
   position: relative;
   flex-direction: row;
   flex-wrap: wrap;
-  max-width: 43em;
+  max-width: 45em;
 }
 
-.section-letter,
+.section-letter{
+  display: flex;
+  width: 50%;
+}
 .section-icon {
   display: flex;
   width: 50%;
@@ -59,12 +62,13 @@ body div {
   width: 100%;
 }
 
-h2 {
+section h2 {
   font-size: 1.5rem;
+  padding: 0;
+  margin: 0;
 }
 
-h2,
-p {
+section p {
   padding: 0;
   margin: 0;
 }
@@ -73,6 +77,10 @@ p {
 
   .img-flex {
     padding: 1.3rem;
+  }
+
+  .section-letter {
+    padding: 0;
   }
 
 }
@@ -98,9 +106,11 @@ p {
   .section-letter {
     order: -1;
   }
+
   .section-icon {
     order: 2;
   }
+
   .section-body {
     order: 1;
   }
@@ -112,24 +122,6 @@ p {
   html {
     font-size: 120%;
     line-height: 1.5;
-  }
-
-  .photo:first-of-type {
-    width: 66.6666%;
-  }
-
-  .photo:nth-child(5) {
-    display: flex;
-  }
-
-  .photo:not(:first-of-type) {
-    width: 33.3333%;
-  }
-
-  section {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
   }
 
 }
