@@ -23,13 +23,22 @@ body {
   padding: 0;
 }
 
-.wrapper {
+body div {
   background-color: #e5c30a;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.wrapper {
   padding: 1.4rem;
   display: flex;
   position: relative;
   flex-direction: row;
   flex-wrap: wrap;
+  max-width: 43em;
 }
 
 .section-letter,
@@ -73,6 +82,26 @@ p {
   html {
     font-size: 110%;
     line-height: 1.4;
+  }
+
+  .wrapper {
+    flex-wrap: nowrap;
+  }
+
+  .section-letter,
+  .section-icon {
+    display: flex;
+    width: 25%;
+  }
+
+  .section-letter {
+    order: -1;
+  }
+  .section-icon {
+    order: 2;
+  }
+  .section-body {
+    order: 1;
   }
 
 }
