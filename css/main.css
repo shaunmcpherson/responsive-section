@@ -33,7 +33,8 @@ section {
 }
 
 .wrapper {
-  margin: 1.4rem;
+  margin: 0;
+  padding: 1.4rem;
   display: flex;
   position: relative;
   flex-direction: row;
@@ -41,10 +42,11 @@ section {
   max-width: 45em;
 }
 
-.section-letter{
+.section-letter {
   display: flex;
   width: 50%;
 }
+
 .section-icon {
   display: flex;
   width: 50%;
