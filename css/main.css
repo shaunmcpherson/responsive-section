@@ -33,8 +33,7 @@ section {
 }
 
 .wrapper {
-  margin: 0;
-  padding: 1.4rem;
+  margin: 1.4rem;
   display: flex;
   position: relative;
   flex-direction: row;
