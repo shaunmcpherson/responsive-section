@@ -34,6 +34,7 @@ section {
 
 .wrapper {
   padding: 0;
+  margin: auto;
   display: flex;
   position: relative;
   flex-direction: row;
