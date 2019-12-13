@@ -29,13 +29,12 @@ section {
   display: flex;
   position: relative;
   justify-content: center;
-  max-height: 400px;
   height: auto;
 }
 
 .wrapper {
   padding: 0;
-  margin: 1.4rem;
+  margin: 1.4em;
   display: flex;
   position: relative;
   flex-direction: row;
@@ -65,6 +64,7 @@ section {
   margin: 0;
   display: block;
   width: 100%;
+  height: 100%;
 }
 
 section h2 {
