@@ -24,7 +24,7 @@ body {
 
 section {
   background-color: #e5c30a;
-  padding: 0;
+  padding: .1rem 0 0;
   margin: 0;
   display: flex;
   position: relative;
@@ -33,7 +33,7 @@ section {
 }
 
 .wrapper {
-  padding: .1rem 0 0;
+  padding: 0;
   margin: 1rem 1.4rem 1.4rem;
   display: flex;
   position: relative;
