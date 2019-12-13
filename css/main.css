@@ -22,7 +22,7 @@ body {
   padding: 0;
 }
 
-section {
+main {
   background-color: #e5c30a;
   padding: 0;
   margin: 0;
@@ -35,7 +35,7 @@ section {
 
 .wrapper {
   padding: 0;
-  margin: 1.4rem;
+  margin: 0;
   display: flex;
   position: relative;
   flex-direction: row;
@@ -55,6 +55,7 @@ section {
 }
 
 .section-body {
+  padding: 0 1.4rem 1.4rem 1.4rem;
   display: block;
   width: 100%;
 }
